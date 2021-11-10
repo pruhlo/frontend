@@ -1,0 +1,117 @@
+/* @media only screen and (min-width: 768px) {.dropdown:hover .dropdown-menu {display: block;}} */
+
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+
+@media only screen {.dropdown:hover .dropdown-menu {display: block;}}
+
+
+.container {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-link {
+    color: black;
+}
+
+.header-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* width: 100%;  */
+    background-color: #ba0000;
+    height: 50px;
+}
+
+.main-menu {
+    display: flex;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    /* width: 100%; */
+    background-color: #ffcc00;
+    height: 120px;  
+    /* width: 36%; */
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-link {
+    text-decoration: none;
+    color: #ba0000;
+} 
+
+.nav-item:hover {
+    display: table;
+    padding-bottom: 95px;
+    border-bottom: 5px solid #ba0000;
+    color: #ba0000;
+    font-weight: 700;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn {
+   padding: 0;
+   border: none;
+   background: none;
+}
+
+.fa-search {
+    padding: 20px;
+    border-radius: 50%;
+    background-color: #ba0000;
+    color: white;
+}
+
+.nav-search {
+    /* margin-right: 20%; */
+    /* margin-left: 2.3%; */
+}
+
+.navbar-brand {
+    /* margin-left: 20%; */
+}
+
+/* .navbar-nav {
+    width: 64%;
+    color: #ba0000;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+    font-family: "Poppins - Regular";
+    font-weight: 400;
+    letter-spacing: 0.42px;
+    font-family: Poppins;
+    letter-spacing: 0.42px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0; 
+} */
+
+/* .navbar {
+    margin-left: 120px;
+} */
+
+/* .nav-item {
+    display: flex;
+    color: #ba0000;
+    padding-left: 2.34%;
+}
+.navbar-menu {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-nav {
+    margin: 0;
+    padding: 0;
+    margin-left: 20%;
+} */
+
+.navbar-menu {
+    margin: 0;
+    padding: 0;
+}

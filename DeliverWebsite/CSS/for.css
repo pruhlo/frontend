@@ -1,0 +1,67 @@
+
+.form-order {
+  
+    margin-top: 310px;
+    height: 533px;
+  }
+  
+  .form-order-tabs {
+    /* display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 570px;
+    background-color: red; */
+    /* display: flex; */
+  }
+  
+  label.tab {
+    /* outline: 1px solid orange; */
+    color: #ffffff;
+    font-weight: 600;
+    padding: 15px;
+    
+    /* width: 49%; */
+   }
+  
+  label.tab.active {
+    background: #fff;
+    color: #1b5f75;
+  }
+    
+  label.tab {
+    border-radius: 3px 3px 0 0;
+    margin-bottom: -1px;
+    cursor: pointer;
+  }
+  
+  .tab-form {
+    /* display: none; */
+  }
+  
+  
+  
+  label.tab.active, input[name="tabs"]:checked + label {
+    background: #ffcc00;
+    color: #ffffff;
+  }
+  
+  form.tab.active, input[name="tabs"]:checked + label + .tab-form {
+    /* display: grid;
+    position: absolute;
+    margin-top: 50px; */
+  
+  }
+  
+  
+  /* form.tab.active, input[name="tabs"]:checked + form {
+    display: flex;
+  } */
+  
+  input[name="tabs"] {
+    display: none;
+  }
+  .form-wrap > option {
+    display: block;
+    width: 400px;
+    /* justify-content:center */
+  }
